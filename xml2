@@ -1,0 +1,14 @@
+<TestPlan>
+  <ThreadGroup>
+    <num_threads>200</num_threads>
+    <ramp_time>1200</ramp_time>
+    <duration>1200</duration>
+    <loop_count>1</loop_count>
+    <Sampler type="HTTP Request" path="/drag-and-drop"/>
+    <Sampler type="HTTP Request" path="/sortable"/>
+  </ThreadGroup>
+  <Listeners>
+    <SummaryReport/>
+    <AggregateReport/>
+  </Listeners>
+</TestPlan>
